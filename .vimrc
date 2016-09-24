@@ -15,9 +15,13 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'dharanasoft/rtf-highlight'
+Plugin 'dag/vim2hs'
+" TODO: Figure out why this breaks CtrlP's caching
+" Plugin 'scrooloose/syntastic'
 
 " language plugins
-Plugin 'fatih/vim-go'
+Plugin 'mxw/vim-jsx'
+" Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -40,4 +44,9 @@ set ruler
 set tabstop=2 shiftwidth=2 expandtab
 au BufNewFile,BufRead *.coffee set filetype=coffee
 
+" CtrlP settings
 let g:ctrlp_custom_ignore={'dir': 'vendor'}
+let g:ctrlp_max_files = 50000
+
+" vim2hs settings
+set foldlevelstart=20
