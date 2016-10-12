@@ -13,13 +13,14 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'dharanasoft/rtf-highlight'
-Plugin 'dag/vim2hs'
 " TODO: Figure out why this breaks CtrlP's caching
 " Plugin 'scrooloose/syntastic'
 
 " language plugins
+Plugin 'dag/vim2hs'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'kchmck/vim-coffee-script'
 Plugin 'mxw/vim-jsx'
 " Plugin 'fatih/vim-go'
 
