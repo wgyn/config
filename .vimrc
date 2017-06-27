@@ -20,10 +20,10 @@ Plugin 'dharanasoft/rtf-highlight'
 " language plugins
 Plugin 'dag/vim2hs'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'fatih/vim-go'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'klen/python-mode'
 Plugin 'mxw/vim-jsx'
-" Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
