@@ -10,20 +10,20 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'tpope/vim-fugitive'
+" utility plugins
+Plugin 'dharanasoft/rtf-highlight'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'dharanasoft/rtf-highlight'
-" TODO: Figure out why this breaks CtrlP's caching
-" Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-fugitive'
 
 " language plugins
 Plugin 'dag/vim2hs'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'fatih/vim-go'
-Plugin 'kchmck/vim-coffee-script'
+Plugin 'isRuslan/vim-es6'
 Plugin 'klen/python-mode'
 Plugin 'mxw/vim-jsx'
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -49,11 +49,3 @@ au BufNewFile,BufRead *.coffee set filetype=coffee
 " CtrlP settings
 let g:ctrlp_custom_ignore={'dir': 'vendor'}
 let g:ctrlp_max_files = 50000
-
-" vim2hs settings
-set foldlevelstart=20
-
-" pymode settings
-let g:pymode_lint_config = '$HOME/pylint.rc'
-let g:pymode_rope = 0
-let g:pymode_rope_completion = 0
