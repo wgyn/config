@@ -1,3 +1,6 @@
+" ensure vundle is installed
+" see: https://github.com/VundleVim/Vundle.vim
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
