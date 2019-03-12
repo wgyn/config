@@ -24,7 +24,6 @@ Plugin 'dag/vim2hs'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'fatih/vim-go'
 Plugin 'isRuslan/vim-es6'
-Plugin 'klen/python-mode'
 Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
 
